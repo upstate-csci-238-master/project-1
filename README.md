@@ -6,16 +6,16 @@ Given a list of numbers, positive, negative, while numbers and decimal numbers, 
 
 ```
 Average of all
-Average of positive
-Average of negative
-Average of odd numbers
-Average of even numbers
-Average of whole numbers
-Average of real numbers
+Average of positive (any number, integer or decimal; zero is considered positive)
+Average of negative (any number, integer or decimal)
+Average of odd numbers (any integer positive or negative that is odd)
+Average of even numbers (any integer positive or negative that is even)
+Average of whole numbers (any number that is postive, negative or zero and does not have a decimal point)
+Average of real numbers (any number, positive, negative or zero with a necimal point)
 Average of prime numbers
 ```
 
-The end of the list of numbers will be indicated with -10101010.
+The end of the list of numbers will be indicated with -10101010. DO NOT INCLUDE THIS NUMBER IN ANY AVERAGES. 
 
 Following the end of the list of numbers will be a list of possible commands as follows:
 
@@ -25,8 +25,8 @@ POS - print the average of only the positive numbers
 NEG - print the average of only the negative numbers
 ODD - print the average of only the odd numbers
 EVEN - print the average of only the even numbers 
-WHOLE - print the average of only the whole numbers
-REAL - print the average of only the decimal numbers (floating point)
+WHOLE - print the average of only the whole numbers, I am defining whole as ANY INTEGER, negative, positive or zero; sorry for the variation from normal math terms
+REAL - print the average of only the decimal numbers (numbers with a decimal point, ie. floating point)
 PRIME - print the average of only the prime numbers
 STOP
 ```
@@ -36,11 +36,11 @@ For each command that you read, output a single line with the corresponding  av
 End the program when you read STOP.
 
 
-For grade of C your program needs to handle integers plus these commands: ALL, POS, NEG STOP
+For grade of C your program needs to handle integers plus these commands: ALL, POS, NEG, STOP
 
-For grade of B your program needs to handle all of C plus real numbers and these commands: ODD, EVEN, WHOLE, REAL, STOP. In addition is must ignore invalid commands. 
+For grade of B your program needs to handle all of C plus real numbers and these commands: ODD, EVEN, WHOLE, REAL. In addition it must ignore invalid commands. 
 
-For grade of A your program needs to handle all of C&B plus invalid numbers which are to be ignored: PRIME, STOP, In addition it must handle commands regardless of their casing (All, ALL, all, etc)
+For grade of A your program needs to handle all of C & B plus invalid numbers which are to be ignored and the PRIME command. In addition it must handle commands regardless of their casing (All, ALL, all, etc)
 
 
 Submit your final source to CodePost using the file name averages.cpp.
