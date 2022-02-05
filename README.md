@@ -12,7 +12,7 @@ Average of odd numbers (any integer positive or negative that is odd)
 Average of even numbers (any integer positive or negative that is even)
 Average of whole numbers (any number that is postive, negative or zero and does not have a decimal point)
 Average of real numbers (any number, positive, negative or zero with a necimal point)
-Average of prime numbers
+Average of prime numbers(google to learn which numbers are prime)
 ```
 
 The end of the list of numbers will be indicated with -10101010. DO NOT INCLUDE THIS NUMBER IN ANY AVERAGES. 
